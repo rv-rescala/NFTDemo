@@ -10,8 +10,8 @@ module.exports = {
       url: "http://127.0.0.1:8545"
     },
     goerli: {
-      url: process.env.ENDPOINT_URL,
-      accounts: [process.env.DEPLOYER_KEY]
+      url: "https://eth-goerli.g.alchemy.com/v2/NbNtDmyDglZObdyXyzUFb464Q70Akh6k",
+      accounts: ["NbNtDmyDglZObdyXyzUFb464Q70Akh6k"]
     }
   },
   solidity: {
